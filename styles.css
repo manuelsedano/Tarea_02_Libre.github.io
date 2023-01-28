@@ -9,7 +9,7 @@
     grid-template-columns: repeat(10, 1fr);
 }
 #start, .boardInfo{
-    font-size: 25px;
+    font-size: 45px;
 }
 #gameOver{
     display: none;
@@ -20,23 +20,24 @@
     margin: 10px 0;
 }
 #start{
-    background-color: #f35a69;
+    background-color: #8b494d;
     border: none;
     color: white;
 }
 #scoreBoard{
-    display: inline-flex
+    display: inline-flex;
+    background-color: #8b494d;
 }
 .square{
     aspect-ratio: 1;
 
 }
 .emptySquare{
-    background-color: #456990;
+    background-color: #1b0c50;
 }
 .snakeSqueare{
-    background-color: #ccf47c;
+    background-color: #a75000;
 }
 .foodSquare{
-    background-color: #f35a69;
+    background-color: #5adcf3;
 }
