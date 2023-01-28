@@ -2,7 +2,7 @@
     font-family: "Shere Tech Mono", monospace;
 }
 #board, .boardInfo{
-    max-width: 500px;
+    max-width: 1000px;
 }
 #board{
     display: grid;
@@ -36,7 +36,7 @@
     background-color: #1b0c50;
 }
 .snakeSqueare{
-    background-color: #a75000;
+    background-color: #03f517;
 }
 .foodSquare{
     background-color: #5adcf3;
